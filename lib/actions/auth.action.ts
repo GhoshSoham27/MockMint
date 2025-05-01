@@ -53,10 +53,6 @@ export async function signIn(params: SignInParams) {
             message: 'Failed to log into an account.'
         }
     }
-    // return {
-    //     success: true,
-    //     message: 'Signed in successfully.'
-    // };
 }
 
 export async function setSessionCookie(idToken: string) {
